@@ -1,1 +1,162 @@
+# PharmaList Website
+
+Professional website for PharmaList medication management app, featuring board-certified pharmacist reviews.
+
+## Setup Instructions
+
+### 1. Add Hero Images
+
+Place your 9 hero images in the `images/` folder with the following names:
+- `Home1.png`
+- `Home2.png`
+- `Home3.png`
+- `Home4.png`
+- `Home5.png`
+- `Home6.png`
+- `Home7.png`
+- `Home8.png`
+- `Home9.png`
+
+These images will automatically rotate on the homepage hero section every 4 seconds.
+
+### 2. Optional: Add Additional Images
+
+For best visual appearance, you can also add these optional images:
+- `pharmacist-review.png` - Board-certified pharmacist reviewing medications
+- `doctor-time.png` - Busy doctor with limited time
+- `adherence-chart.png` - Adherence tracking charts
+- `family-care.png` - Family caregiver support
+- `mission.png` - Our mission image
+- `pharmacist1.jpg` through `pharmacist6.jpg` - Team member photos
+- `ceo.jpg`, `vpsales.jpg`, `cmo.jpg` - Leadership team photos
+
+If these images are not provided, the website will display gradient placeholders.
+
+### 3. File Structure
+
+```
+PharmaListWebsite/
+├── index.html          # Homepage
+├── about.html          # About page
+├── team.html           # Meet Our Team page
+├── privacy.html        # Privacy Policy page
+├── contact.html        # Contact Us page
+├── css/
+│   └── styles.css      # Main stylesheet
+├── js/
+│   └── main.js         # JavaScript functionality
+├── images/             # Image assets folder
+└── README.md           # This file
+```
+
+### 4. Running the Website
+
+#### Option 1: Simple Local Server (Python)
+```bash
+cd /Volumes/SanDisk4TB2_WorkingDrive/Xcode/Xcode\ and\ VS\ Code\ Projects/PharmaListWebsite
+python3 -m http.server 8000
+```
+Then open http://localhost:8000 in your browser.
+
+#### Option 2: VS Code Live Server
+1. Install the "Live Server" extension in VS Code
+2. Right-click on `index.html`
+3. Select "Open with Live Server"
+
+#### Option 3: Direct File Opening
+Simply double-click `index.html` to open in your default browser.
+
+## Features
+
+### Design
+- Clean, modern design inspired by CURBSIDERx
+- Teal and blue color scheme matching healthcare branding
+- Fully responsive for mobile, tablet, and desktop
+- Smooth animations and transitions
+
+### Pages
+1. **Home** - Hero section with rotating images, feature highlights, comprehensive service descriptions
+2. **About** - Mission, problem/solution, how it works
+3. **Meet Our Team** - Board-certified pharmacist profiles and leadership team
+4. **Privacy Policy** - Comprehensive HIPAA-compliant privacy policy
+5. **Contact Us** - Contact form and information, FAQ section
+
+### Key Features
+- Rotating hero images (9 images, 4-second intervals)
+- Mobile-responsive navigation with hamburger menu
+- Smooth scrolling between sections
+- Contact form with validation
+- SEO-optimized meta tags
+- Accessibility features
+
+## Customization
+
+### Colors
+Edit `css/styles.css` to change the color scheme:
+```css
+:root {
+    --primary-teal: #4A7C7E;
+    --dark-teal: #3A6264;
+    --light-teal: #E8F4F5;
+    --app-blue: #007AFF;
+}
+```
+
+### Hero Image Rotation Speed
+Edit `js/main.js` to change rotation interval (default: 4000ms):
+```javascript
+setInterval(() => {
+    // Change 4000 to desired milliseconds
+}, 4000);
+```
+
+### Contact Information
+Update contact details in all HTML files:
+- Email addresses
+- Phone numbers
+- Physical address (in Privacy Policy)
+- Social media links
+
+## Content Highlights
+
+The website comprehensively explains:
+- **Board-certified pharmacist difference** vs retail pharmacists
+- **Why doctors don't have time** for comprehensive medication reviews
+- **Medication adherence tracking** and its importance
+- **Care team sharing** features for family caregivers
+- **Smart features** including NDC scanner, OCR, auto-categorization
+- **HIPAA compliance** and security measures
+- **Multi-platform availability** (iPhone, Apple Watch, Mac, with Android/PC coming)
+- **SMART on FHIR integration** (coming soon)
+
+## Technical Details
+
+- **HTML5** semantic markup
+- **CSS3** with CSS Grid and Flexbox
+- **Vanilla JavaScript** (no dependencies)
+- **Mobile-first responsive design**
+- **Cross-browser compatible**
+- **SEO optimized**
+- **Accessibility compliant**
+
+## Browser Support
+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
+- Mobile browsers (iOS Safari, Chrome Mobile)
+
+## Next Steps
+
+1. Add your hero images to the `images/` folder
+2. Update contact information with real details
+3. Add App Store link when available
+4. Customize colors/branding as needed
+5. Add Google Analytics or other tracking (optional)
+6. Set up domain and hosting for production
+
+## Questions?
+
+The website is fully functional and ready to use. Simply add your images and customize the contact information!
 
