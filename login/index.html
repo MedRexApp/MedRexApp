@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MedRexApp Access</title>
+    <meta name="description" content="Restricted preview access for MedRexApp website.">
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="/js/access-control.js"></script>
+</head>
+<body class="auth-body">
+    <main class="auth-wrapper">
+        <section class="auth-card">
+            <header class="auth-header">
+                <div class="logo-icon">💊</div>
+                <h1>MedRexApp Preview</h1>
+                <p>Enter the access code to view the site.</p>
+            </header>
+
+            <form data-login-form class="auth-form">
+                <label for="accessCode">Access Code</label>
+                <input type="password" id="accessCode" name="accessCode" placeholder="Enter code" autocomplete="off" required>
+                <button type="submit" class="btn btn-primary auth-button">Unlock Site</button>
+                <p data-login-message class="auth-message" aria-live="polite"></p>
+            </form>
+
+            <p class="auth-disclaimer">
+                Sharing the access code allows trusted collaborators to view the in-progress site. Remove the code or delete this page when you launch publicly.
+            </p>
+        </section>
+    </main>
+</body>
+</html>
