@@ -1,6 +1,6 @@
 (function () {
   const ACCESS_KEY = 'medrex_access_token';
-  const REQUIRED_TOKEN = 'bWVkcmV4LWFjY2Vzcy0yMDI2'; // btoa('jukemedrex2026')
+  const REQUIRED_TOKEN = 'anVrZXJleGFjY2VzczIwMjY='; // btoa('jukerexaccess2026')
   const LOGIN_PATHS = new Set(['', '/', '/login', '/login/']);
 
   function normalizePath(pathname) {
