@@ -1,6 +1,6 @@
-# PharmaList Website
+# Med Rex App Website
 
-Professional website for PharmaList medication management app, featuring board-certified pharmacist reviews.
+Professional website for Med Rex App medication management app, featuring board-certified pharmacist reviews.
 
 ## Setup Instructions
 
@@ -35,7 +35,7 @@ If these images are not provided, the website will display gradient placeholders
 ### 3. File Structure
 
 ```
-PharmaListWebsite/
+MedRexAppWebsite/
 ├── index.html          # Homepage
 ├── about.html          # About page
 ├── team.html           # Meet Our Team page
@@ -53,7 +53,7 @@ PharmaListWebsite/
 
 #### Option 1: Simple Local Server (Python)
 ```bash
-cd /Volumes/SanDisk4TB2_WorkingDrive/Xcode/Xcode\ and\ VS\ Code\ Projects/PharmaListWebsite
+cd /Volumes/SanDisk4TB2_WorkingDrive/Xcode/Xcode\ and\ VS\ Code\ Projects/MedRexAppWebsite
 python3 -m http.server 8000
 ```
 Then open http://localhost:8000 in your browser.
